@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini Waffles</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0; font-family:system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.5}
+    /* Fills the viewport, keeps aspect ratio (no distortion). Change to 'contain' to avoid any crop. */
+    .hero{
+      display:block;
+      width:100vw;
+      height:100vh;    /* fallback */
+      height:100dvh;   /* mobile-safe viewport */
+      object-fit:cover;
+      object-position:center;
+    }
+    header, main, footer{max-width:68rem; margin-inline:auto; padding:1rem}
+    nav a{text-decoration:none}
+    h1{margin:0.25rem 0 0.5rem}
+    .section-title{margin-top:1.5rem}
+  </style>
+</head>
+<body>
+  <header>
+    <nav><a href="../index.html">← Back to Recipes</a></nav>
+    <h1>Mini Waffles</h1>
+  </header>
+
+  <img class="hero" src="/recipes/images/waffle.png" alt="Golden waffle on a blue plate" />
+
+  <main>
+    <article>
+      <section>
+        <h2 class="section-title">Ingredients</h2>
+        <ul>
+          <!-- Dry ingredients with gram weights -->
+          <li>1 cup all-purpose flour <em>(120 g)</em></li>
+          <li>1 tbsp granulated sugar <em>(12.5 g)</em></li>
+          <li>2 tsp baking powder <em>(8 g)</em></li>
+          <li>¼ tsp fine salt <em>(1.5 g)</em></li>
+          <!-- Wet ingredients -->
+          <li>1 egg</li>
+          <li>1 cup milk</li>
+          <li>2 tbsp vegetable oil or butter, melted</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="section-title">Instructions</h2>
+        <ol>
+          <li>In a medium bowl, sift together flour, sugar, baking powder, and salt.</li>
+          <li>Whisk the egg, milk, and melted butter in a separate bowl. Add the wet ingredients to the dry and mix until just incorporated.</li>
+          <li>Grease the Mini Waffle Maker with butter or coat with a light coat of cooking spray. Pour 3 tbsp of batter onto the Mini Waffle Maker and cook until golden brown. Repeat with the remaining batter.</li>
+          <li>Serve with a drizzle of maple syrup and fresh berries, if desired.</li>
+        </ol>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Beth Recipes</p>
+  </footer>
+</body>
+</html>
