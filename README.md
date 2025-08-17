@@ -1,1 +1,1 @@
-# odin-recipes
+This is a practice website made while taking The Odin Project Fundamentals Course on html, css, and javascript created by yours truely, BethCNC.
